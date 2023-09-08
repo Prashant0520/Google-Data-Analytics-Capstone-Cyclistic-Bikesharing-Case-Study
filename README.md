@@ -11,3 +11,18 @@ This report also seeks to identify the important stakeholders that are involved 
 - director of marketing,
 - Cyclistic marketing team
 - Cyclistic executive team
+### Data Source
+I will analyze Cyclistic's historical trip data from Jan 2022 to Dec 2022, available at [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html), provided by Motivate International Inc. for public use.
+We'll explore customer usage trends, but won't access personally identifiable information due to data-privacy restrictions. Thus, we can't link pass purchases to credit card details or determine casual riders' location or pass history.
+
+## 1. Ask 
+
+### Business Task
+To maximize the number of annual memberships by converting casual riders to annual members.
+
+#### Analysis Questions
+Three questions will guide the future marketing program:
+- How do annual members and casual riders use Cyclistic bikes differently?
+- Why would casual riders buy Cyclistic annual memberships?
+- How can Cyclistic use digital media to influence casual riders to become members?
+##### Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
