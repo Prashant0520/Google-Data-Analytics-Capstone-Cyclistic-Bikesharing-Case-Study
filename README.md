@@ -67,10 +67,17 @@ ride_length with duration less than a minute and longer than a day are excluded
 ## 3. Analysis & Share
 First of all, member and casual riders are compared by the type of bikes they are using. 
 ![download (2)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/5702f71c-aef1-4709-a80c-e259481539b4)
-
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total.
 
 The Bikes types used by riders
 ![download (4)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/933ad7c7-5d91-49ef-bae6-f16abb0b542c)
- Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
+Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
 
+Next the number of trips distributed by the months and days of the week are examined.
+![download (7)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/6a1e0a6e-c97f-47ff-91ea-eee12450cca7)
+![download (8)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/5c95f202-a6e0-495a-a501-7db5021fc9d9)
+__Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.   
+__Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week. 
+___high frequency of ride on days_of_week for all types of users is Satuday
+___high frequency of ride on days_of_week for member types of users is Thursday
+___high frequency of ride on days_of_week for casual types of users is Satuday
