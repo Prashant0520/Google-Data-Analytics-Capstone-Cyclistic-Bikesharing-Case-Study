@@ -66,7 +66,7 @@ ride_length with duration less than a minute and longer than a day are excluded
 
 ## 3. Analysis & Share
 First of all, member and casual riders are compared by the type of bikes they are using. 
-![image](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/images/download%20(2).png)
+![images](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/images/download%20(2).png)
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total.
 
 The Bikes types used by riders
