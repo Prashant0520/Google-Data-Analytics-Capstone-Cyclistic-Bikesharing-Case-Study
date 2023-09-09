@@ -46,22 +46,22 @@ There are 12 files with naming convention of YYYYMM-divvy-tripdata and each file
 Python is used to combine the various datasets into one dataset and clean it.
 ##### Reason:
 A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform other than MS Excel that supports huge volumes of data.
-### 1. Combining Dataset
+#### 1. Combining Dataset
 12 csv files are uploaded as tables in the dataset '2022_tripdata'. Another table named "case_file_5000" is created, containing 5,667,717 rows of data for the entire year.
-### 2. Handling Null Value:
+#### 2. Handling Null Value:
 some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.
 1. Total of 833064 rows have both start_station_name and start_station_id missing which needs to be removed.
 2. Total of 892742 rows have both end_station_name and end_station_id missing which needs to be removed.
 3. Total of 5858 rows have both end_lat and end_lng missing which needs to be remov
-### 3. Handling Duplicate Entries
+#### 3. Handling Duplicate Entries
 There are no duplicate rows in the dataset
-### 4. Created Columns
+#### 4. Created Columns
 1. New Column ride_length can be created to find the total trip duration.
 2. New Column days_of_week and month can be created for analysis.
-### 4. Data Type Correction
+#### 5. Data Type Correction
 To convert object data type of start_time & end_time columns into datetime data type
 To convert object data type of ride_length into timedelta data type
-### 5. Handling Invalid Entries
+#### 6. Handling Invalid Entries
 ride_length with duration less than a minute and longer than a day are excluded
 
 ## 4. Analysis & Share
@@ -81,7 +81,7 @@ __Days of Week:__ When the days of the week are compared, it is discovered that 
 - The high frequency of ride-on days for all types of users is Saturday
 - The high frequency of ride on days_of_week for member types of users is Thursday
 - The high frequency of ride on days_of_week for casual types of users is Satuday
-- 
+
 for more
 https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Cyclistic-Bikesharing-Case-Study.ipynb
 
