@@ -66,10 +66,11 @@ ride_length with duration less than a minute and longer than a day are excluded
 
 ## 3. Analysis & Share
 First of all, member and casual riders are compared by the type of bikes they are using. 
-![images](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/images/download%20(2).png)
+![download (2)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/5702f71c-aef1-4709-a80c-e259481539b4)
+
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total.
 
 The Bikes types used by riders
-![image](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/images/download%20(4).png)
+![download (4)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/933ad7c7-5d91-49ef-bae6-f16abb0b542c)
  Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
 
