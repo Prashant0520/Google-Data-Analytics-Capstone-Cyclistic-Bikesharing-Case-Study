@@ -64,7 +64,7 @@ To convert object data type of ride_length into timedelta data type
 ### 5. Handling Invalid Entries
 ride_length with duration less than a minute and longer than a day are excluded
 
-## 3. Analysis & Share
+## 4. Analysis & Share
 - First of all, member and casual riders are compared by the type of bikes they are using. 
 ![download (2)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/5702f71c-aef1-4709-a80c-e259481539b4)
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total.
@@ -78,6 +78,25 @@ Most used bike is classic bike followed by the electric bike. Docked bikes are u
 ![download (8)](https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/120619315/5c95f202-a6e0-495a-a501-7db5021fc9d9)
 __Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.   
 __Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week. 
-- high frequency of ride on days_of_week for all types of users is Satuday
-- high frequency of ride on days_of_week for member types of users is Thursday
-- high frequency of ride on days_of_week for casual types of users is Satuday
+- The high frequency of ride-on days for all types of users is Saturday
+- The high frequency of ride on days_of_week for member types of users is Thursday
+- The high frequency of ride on days_of_week for casual types of users is Satuday
+- 
+for more
+https://github.com/Prashant0520/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Cyclistic-Bikesharing-Case-Study.ipynb
+
+#### Summary:
+
+|Casual|Member|
+|------|------|
+|Prefer using bikes throughout the day, more frequently over the weekends in summer and spring for leisure activities.|Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.|
+|Travel 2 times longer but less frequently than members.|Travel more frequently but shorter rides (approximately half of casual riders' trip duration).|
+
+## 5. Act
+
+After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
+##### Recommendations:
+- Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
+- Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
+- Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
+- We have observed that approximately more than half of the casual members use classic_bike for travelling, so we can offer special incentives in order to increase conversion from casual to annual.
